@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		279BEBCC14D2E63400779E40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279BEBCB14D2E63400779E40 /* UIKit.framework */; };
+		279BEBCE14D2E63400779E40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279BEBCD14D2E63400779E40 /* Foundation.framework */; };
+		279BEBD014D2E63400779E40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279BEBCF14D2E63400779E40 /* CoreGraphics.framework */; };
+		279BEBD614D2E63400779E40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 279BEBD414D2E63400779E40 /* InfoPlist.strings */; };
+		279BEBD814D2E63400779E40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 279BEBD714D2E63400779E40 /* main.m */; };
+		279BEBDC14D2E63400779E40 /* SGSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 279BEBDB14D2E63400779E40 /* SGSAppDelegate.m */; };
+		279BEBDF14D2E63400779E40 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279BEBDD14D2E63400779E40 /* MainStoryboard.storyboard */; };
+		279BEBE214D2E63400779E40 /* SGSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279BEBE114D2E63400779E40 /* SGSViewController.m */; };
+		279BEBEA14D2E63400779E40 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279BEBE914D2E63400779E40 /* SenTestingKit.framework */; };
+		279BEBEB14D2E63400779E40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279BEBCB14D2E63400779E40 /* UIKit.framework */; };
+		279BEBEC14D2E63400779E40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279BEBCD14D2E63400779E40 /* Foundation.framework */; };
+		279BEBF414D2E63400779E40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 279BEBF214D2E63400779E40 /* InfoPlist.strings */; };
+		279BEBF714D2E63400779E40 /* Simple_Golf_ScoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 279BEBF614D2E63400779E40 /* Simple_Golf_ScoreTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		279BEBED14D2E63400779E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 279BEBBE14D2E63300779E40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 279BEBC614D2E63400779E40;
+			remoteInfo = "Simple Golf Score";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		279BEBC714D2E63400779E40 /* Simple Golf Score.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Golf Score.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		279BEBCB14D2E63400779E40 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		279BEBCD14D2E63400779E40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		279BEBCF14D2E63400779E40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		279BEBD314D2E63400779E40 /* Simple Golf Score-Info.plist */ = {isa = PBXFileReference; path = "Simple Golf Score-Info.plist"; sourceTree = "<group>"; };
+		279BEBD514D2E63400779E40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		279BEBD714D2E63400779E40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		279BEBD914D2E63400779E40 /* Simple Golf Score-Prefix.pch */ = {isa = PBXFileReference; path = "Simple Golf Score-Prefix.pch"; sourceTree = "<group>"; };
+		279BEBDA14D2E63400779E40 /* SGSAppDelegate.h */ = {isa = PBXFileReference; path = SGSAppDelegate.h; sourceTree = "<group>"; };
+		279BEBDB14D2E63400779E40 /* SGSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGSAppDelegate.m; sourceTree = "<group>"; };
+		279BEBDE14D2E63400779E40 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		279BEBE014D2E63400779E40 /* SGSViewController.h */ = {isa = PBXFileReference; path = SGSViewController.h; sourceTree = "<group>"; };
+		279BEBE114D2E63400779E40 /* SGSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGSViewController.m; sourceTree = "<group>"; };
+		279BEBE814D2E63400779E40 /* Simple Golf ScoreTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Golf ScoreTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		279BEBE914D2E63400779E40 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		279BEBF114D2E63400779E40 /* Simple Golf ScoreTests-Info.plist */ = {isa = PBXFileReference; path = "Simple Golf ScoreTests-Info.plist"; sourceTree = "<group>"; };
+		279BEBF314D2E63400779E40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		279BEBF514D2E63400779E40 /* Simple_Golf_ScoreTests.h */ = {isa = PBXFileReference; path = Simple_Golf_ScoreTests.h; sourceTree = "<group>"; };
+		279BEBF614D2E63400779E40 /* Simple_Golf_ScoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_Golf_ScoreTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		279BEBC414D2E63400779E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279BEBCC14D2E63400779E40 /* UIKit.framework in Frameworks */,
+				279BEBCE14D2E63400779E40 /* Foundation.framework in Frameworks */,
+				279BEBD014D2E63400779E40 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279BEBE414D2E63400779E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279BEBEA14D2E63400779E40 /* SenTestingKit.framework in Frameworks */,
+				279BEBEB14D2E63400779E40 /* UIKit.framework in Frameworks */,
+				279BEBEC14D2E63400779E40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		279BEBBC14D2E63300779E40 = {
+			isa = PBXGroup;
+			children = (
+				279BEBD114D2E63400779E40 /* Simple Golf Score */,
+				279BEBEF14D2E63400779E40 /* Simple Golf ScoreTests */,
+				279BEBCA14D2E63400779E40 /* Frameworks */,
+				279BEBC814D2E63400779E40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		279BEBC814D2E63400779E40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				279BEBC714D2E63400779E40 /* Simple Golf Score.app */,
+				279BEBE814D2E63400779E40 /* Simple Golf ScoreTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		279BEBCA14D2E63400779E40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				279BEBCB14D2E63400779E40 /* UIKit.framework */,
+				279BEBCD14D2E63400779E40 /* Foundation.framework */,
+				279BEBCF14D2E63400779E40 /* CoreGraphics.framework */,
+				279BEBE914D2E63400779E40 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		279BEBD114D2E63400779E40 /* Simple Golf Score */ = {
+			isa = PBXGroup;
+			children = (
+				279BEBDA14D2E63400779E40 /* SGSAppDelegate.h */,
+				279BEBDB14D2E63400779E40 /* SGSAppDelegate.m */,
+				279BEBDD14D2E63400779E40 /* MainStoryboard.storyboard */,
+				279BEBE014D2E63400779E40 /* SGSViewController.h */,
+				279BEBE114D2E63400779E40 /* SGSViewController.m */,
+				279BEBD214D2E63400779E40 /* Supporting Files */,
+			);
+			path = "Simple Golf Score";
+			sourceTree = "<group>";
+		};
+		279BEBD214D2E63400779E40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				279BEBD314D2E63400779E40 /* Simple Golf Score-Info.plist */,
+				279BEBD414D2E63400779E40 /* InfoPlist.strings */,
+				279BEBD714D2E63400779E40 /* main.m */,
+				279BEBD914D2E63400779E40 /* Simple Golf Score-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		279BEBEF14D2E63400779E40 /* Simple Golf ScoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				279BEBF514D2E63400779E40 /* Simple_Golf_ScoreTests.h */,
+				279BEBF614D2E63400779E40 /* Simple_Golf_ScoreTests.m */,
+				279BEBF014D2E63400779E40 /* Supporting Files */,
+			);
+			path = "Simple Golf ScoreTests";
+			sourceTree = "<group>";
+		};
+		279BEBF014D2E63400779E40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				279BEBF114D2E63400779E40 /* Simple Golf ScoreTests-Info.plist */,
+				279BEBF214D2E63400779E40 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		279BEBC614D2E63400779E40 /* Simple Golf Score */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279BEBFA14D2E63400779E40 /* Build configuration list for PBXNativeTarget "Simple Golf Score" */;
+			buildPhases = (
+				279BEBC314D2E63400779E40 /* Sources */,
+				279BEBC414D2E63400779E40 /* Frameworks */,
+				279BEBC514D2E63400779E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Golf Score";
+			productName = "Simple Golf Score";
+			productReference = 279BEBC714D2E63400779E40 /* Simple Golf Score.app */;
+			productType = "com.apple.product-type.application";
+		};
+		279BEBE714D2E63400779E40 /* Simple Golf ScoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279BEBFD14D2E63400779E40 /* Build configuration list for PBXNativeTarget "Simple Golf ScoreTests" */;
+			buildPhases = (
+				279BEBE314D2E63400779E40 /* Sources */,
+				279BEBE414D2E63400779E40 /* Frameworks */,
+				279BEBE514D2E63400779E40 /* Resources */,
+				279BEBE614D2E63400779E40 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				279BEBEE14D2E63400779E40 /* PBXTargetDependency */,
+			);
+			name = "Simple Golf ScoreTests";
+			productName = "Simple Golf ScoreTests";
+			productReference = 279BEBE814D2E63400779E40 /* Simple Golf ScoreTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		279BEBBE14D2E63300779E40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 279BEBC114D2E63300779E40 /* Build configuration list for PBXProject "Simple Golf Score" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 279BEBBC14D2E63300779E40;
+			productRefGroup = 279BEBC814D2E63400779E40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				279BEBC614D2E63400779E40 /* Simple Golf Score */,
+				279BEBE714D2E63400779E40 /* Simple Golf ScoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		279BEBC514D2E63400779E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279BEBD614D2E63400779E40 /* InfoPlist.strings in Resources */,
+				279BEBDF14D2E63400779E40 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279BEBE514D2E63400779E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279BEBF414D2E63400779E40 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		279BEBE614D2E63400779E40 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		279BEBC314D2E63400779E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279BEBD814D2E63400779E40 /* main.m in Sources */,
+				279BEBDC14D2E63400779E40 /* SGSAppDelegate.m in Sources */,
+				279BEBE214D2E63400779E40 /* SGSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279BEBE314D2E63400779E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279BEBF714D2E63400779E40 /* Simple_Golf_ScoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		279BEBEE14D2E63400779E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 279BEBC614D2E63400779E40 /* Simple Golf Score */;
+			targetProxy = 279BEBED14D2E63400779E40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		279BEBD414D2E63400779E40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				279BEBD514D2E63400779E40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		279BEBDD14D2E63400779E40 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				279BEBDE14D2E63400779E40 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		279BEBF214D2E63400779E40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				279BEBF314D2E63400779E40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		279BEBF814D2E63400779E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		279BEBF914D2E63400779E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		279BEBFB14D2E63400779E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Golf Score/Simple Golf Score-Prefix.pch";
+				INFOPLIST_FILE = "Simple Golf Score/Simple Golf Score-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		279BEBFC14D2E63400779E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Golf Score/Simple Golf Score-Prefix.pch";
+				INFOPLIST_FILE = "Simple Golf Score/Simple Golf Score-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		279BEBFE14D2E63400779E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simple Golf Score.app/Simple Golf Score";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Golf Score/Simple Golf Score-Prefix.pch";
+				INFOPLIST_FILE = "Simple Golf ScoreTests/Simple Golf ScoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		279BEBFF14D2E63400779E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simple Golf Score.app/Simple Golf Score";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Golf Score/Simple Golf Score-Prefix.pch";
+				INFOPLIST_FILE = "Simple Golf ScoreTests/Simple Golf ScoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		279BEBC114D2E63300779E40 /* Build configuration list for PBXProject "Simple Golf Score" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279BEBF814D2E63400779E40 /* Debug */,
+				279BEBF914D2E63400779E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279BEBFA14D2E63400779E40 /* Build configuration list for PBXNativeTarget "Simple Golf Score" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279BEBFB14D2E63400779E40 /* Debug */,
+				279BEBFC14D2E63400779E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		279BEBFD14D2E63400779E40 /* Build configuration list for PBXNativeTarget "Simple Golf ScoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279BEBFE14D2E63400779E40 /* Debug */,
+				279BEBFF14D2E63400779E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 279BEBBE14D2E63300779E40 /* Project object */;
+}
