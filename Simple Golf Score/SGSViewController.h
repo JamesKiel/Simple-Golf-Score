@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface SGSViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *StrokeDisplay;
+- (IBAction)StrokeStepper:(id)sender;
 
 @end

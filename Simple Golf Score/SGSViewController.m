@@ -9,6 +9,7 @@
 #import "SGSViewController.h"
 
 @implementation SGSViewController
+@synthesize StrokeDisplay;
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +27,7 @@
 
 - (void)viewDidUnload
 {
+    [self setStrokeDisplay:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -57,4 +59,8 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)StrokeStepper:(UIStepper*)sender {
+    int value = [sender value];
+    StrokeDisplay.text = [NSString stringWithFormat:@"%d", value];
+}
 @end

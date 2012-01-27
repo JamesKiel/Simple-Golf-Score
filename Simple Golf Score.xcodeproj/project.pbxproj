@@ -20,6 +20,7 @@
 		279BEBEC14D2E63400779E40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279BEBCD14D2E63400779E40 /* Foundation.framework */; };
 		279BEBF414D2E63400779E40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 279BEBF214D2E63400779E40 /* InfoPlist.strings */; };
 		279BEBF714D2E63400779E40 /* Simple_Golf_ScoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 279BEBF614D2E63400779E40 /* Simple_Golf_ScoreTests.m */; };
+		279BEC0114D2EF5200779E40 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 279BEC0014D2EF5200779E40 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +38,22 @@
 		279BEBCB14D2E63400779E40 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		279BEBCD14D2E63400779E40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		279BEBCF14D2E63400779E40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		279BEBD314D2E63400779E40 /* Simple Golf Score-Info.plist */ = {isa = PBXFileReference; path = "Simple Golf Score-Info.plist"; sourceTree = "<group>"; };
+		279BEBD314D2E63400779E40 /* Simple Golf Score-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple Golf Score-Info.plist"; sourceTree = "<group>"; };
 		279BEBD514D2E63400779E40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		279BEBD714D2E63400779E40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		279BEBD914D2E63400779E40 /* Simple Golf Score-Prefix.pch */ = {isa = PBXFileReference; path = "Simple Golf Score-Prefix.pch"; sourceTree = "<group>"; };
-		279BEBDA14D2E63400779E40 /* SGSAppDelegate.h */ = {isa = PBXFileReference; path = SGSAppDelegate.h; sourceTree = "<group>"; };
+		279BEBD914D2E63400779E40 /* Simple Golf Score-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple Golf Score-Prefix.pch"; sourceTree = "<group>"; };
+		279BEBDA14D2E63400779E40 /* SGSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGSAppDelegate.h; sourceTree = "<group>"; };
 		279BEBDB14D2E63400779E40 /* SGSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGSAppDelegate.m; sourceTree = "<group>"; };
 		279BEBDE14D2E63400779E40 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		279BEBE014D2E63400779E40 /* SGSViewController.h */ = {isa = PBXFileReference; path = SGSViewController.h; sourceTree = "<group>"; };
+		279BEBE014D2E63400779E40 /* SGSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGSViewController.h; sourceTree = "<group>"; };
 		279BEBE114D2E63400779E40 /* SGSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGSViewController.m; sourceTree = "<group>"; };
 		279BEBE814D2E63400779E40 /* Simple Golf ScoreTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Golf ScoreTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		279BEBE914D2E63400779E40 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		279BEBF114D2E63400779E40 /* Simple Golf ScoreTests-Info.plist */ = {isa = PBXFileReference; path = "Simple Golf ScoreTests-Info.plist"; sourceTree = "<group>"; };
+		279BEBF114D2E63400779E40 /* Simple Golf ScoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple Golf ScoreTests-Info.plist"; sourceTree = "<group>"; };
 		279BEBF314D2E63400779E40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		279BEBF514D2E63400779E40 /* Simple_Golf_ScoreTests.h */ = {isa = PBXFileReference; path = Simple_Golf_ScoreTests.h; sourceTree = "<group>"; };
+		279BEBF514D2E63400779E40 /* Simple_Golf_ScoreTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_Golf_ScoreTests.h; sourceTree = "<group>"; };
 		279BEBF614D2E63400779E40 /* Simple_Golf_ScoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_Golf_ScoreTests.m; sourceTree = "<group>"; };
+		279BEC0014D2EF5200779E40 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				279BEBDA14D2E63400779E40 /* SGSAppDelegate.h */,
 				279BEBDB14D2E63400779E40 /* SGSAppDelegate.m */,
 				279BEBDD14D2E63400779E40 /* MainStoryboard.storyboard */,
+				279BEC0014D2EF5200779E40 /* .gitignore */,
 				279BEBE014D2E63400779E40 /* SGSViewController.h */,
 				279BEBE114D2E63400779E40 /* SGSViewController.m */,
 				279BEBD214D2E63400779E40 /* Supporting Files */,
@@ -223,6 +226,7 @@
 			files = (
 				279BEBD614D2E63400779E40 /* InfoPlist.strings in Resources */,
 				279BEBDF14D2E63400779E40 /* MainStoryboard.storyboard in Resources */,
+				279BEC0114D2EF5200779E40 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
