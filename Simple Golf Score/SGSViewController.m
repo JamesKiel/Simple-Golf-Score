@@ -9,8 +9,12 @@
 #import "SGSViewController.h"
 
 @implementation SGSViewController
+@synthesize NextHoleButton;
+@synthesize StrokeStepperOutlet;
+@synthesize HoleScoreRoundScoreViews;
 @synthesize StrokeDisplay;
-
+@synthesize Holescorevalue;
+@synthesize Roundscorevalue;
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -28,6 +32,9 @@
 - (void)viewDidUnload
 {
     [self setStrokeDisplay:nil];
+    [self setNextHoleButton:nil];
+    [self setStrokeStepperOutlet:nil];
+    [self setHoleScoreRoundScoreViews:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -59,8 +66,40 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
-- (IBAction)StrokeStepper:(UIStepper*)sender {
-    int value = [sender value];
-    StrokeDisplay.text = [NSString stringWithFormat:@"%d", value];
+- (IBAction)StrokeStepperAction:(UIStepper*)sender {
+    Holescorevalue = [sender value];
+    StrokeDisplay.text = [NSString stringWithFormat:@"%d", Holescorevalue];
+    
 }
+
+- (IBAction)NextHoleButton:(id)sender {
+    Roundscorevalue+= Holescorevalue;
+    StrokeDisplay.text = @"";
+    StrokeStepperOutlet.value = 0;
+       //TODO seperate Roundscorevalue from inside this method, see if I can put it in View interface
+}
+- (IBAction)HoleScoreRoundScoreAction:(id)sender {
+    if (HoleScoreRoundScoreViews.selectedSegmentIndex == 0) {
+        StrokeStepperOutlet.enabled = true;
+        NextHoleButton.enabled = true;
+        StrokeDisplay.text = [NSString stringWithFormat:@"%d",Holescorevalue];
+    }
+    if (HoleScoreRoundScoreViews.selectedSegmentIndex == 1) {
+        StrokeStepperOutlet.enabled = false;
+        NextHoleButton.enabled = false;
+        StrokeDisplay.text =[NSString stringWithFormat:@"%d", Roundscorevalue];
+
+    }
+}
+
+//    HoleScoreRoundScoreViews.enabled = TRUE;
+//    if (HoleScoreRoundScoreViews.selectedSegmentIndex == 0,sender) {
+//    
+//        
+//    }  else {
+//    if (HoleScoreRoundScoreViews.selectedSegmentIndex == 1,sender) {
+//        StrokeStepperOutlet.enabled = false;
+//        NextHoleButton.enabled = false;
+//        StrokeDisplay.text = [NSString stringWithFormat:@"%d", Roundscorevalue;
+//    }
 @end

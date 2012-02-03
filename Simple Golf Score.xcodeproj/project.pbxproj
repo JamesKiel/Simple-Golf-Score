@@ -433,6 +433,7 @@
 				279BEBFC14D2E63400779E40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		279BEBFD14D2E63400779E40 /* Build configuration list for PBXNativeTarget "Simple Golf ScoreTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +442,7 @@
 				279BEBFF14D2E63400779E40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

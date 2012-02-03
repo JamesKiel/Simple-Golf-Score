@@ -14,25 +14,55 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="120" id="b7l-3M-QB8">
-                                <rect key="frame" x="85" y="69" width="150" height="200"/>
+                                <rect key="frame" x="85" y="80" width="150" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="120"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.98146949852080734" green="1" blue="0.76109322679967462" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" id="62V-5Z-wJL">
-                                <rect key="frame" x="113" y="324" width="94" height="27"/>
+                                <rect key="frame" x="113" y="315" width="94" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <connections>
-                                    <action selector="StrokeStepper:" destination="2" eventType="valueChanged" id="Gyw-BJ-hP9"/>
+                                    <action selector="StrokeStepperAction:" destination="2" eventType="valueChanged" id="bNH-9F-PU3"/>
                                 </connections>
                             </stepper>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dv4-tD-YXp">
+                                <rect key="frame" x="100" y="381" width="120" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
+                                <state key="normal" title="Next Hole">
+                                    <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="NextHoleButton:" destination="2" eventType="touchUpInside" id="a9j-ic-A6s"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="RI7-MV-txu">
+                                <rect key="frame" x="33" y="11" width="255" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.49999999999999961"/>
+                                <segments>
+                                    <segment title="Hole Score"/>
+                                    <segment title="Round Score"/>
+                                </segments>
+                                <connections>
+                                    <action selector="HoleScoreRoundScoreAction:" destination="2" eventType="valueChanged" id="W9m-31-vZu"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="HoleScoreRoundScoreViews" destination="RI7-MV-txu" id="JfP-9b-hmk"/>
+                        <outlet property="NextHoleButton" destination="dv4-tD-YXp" id="riG-QH-hDw"/>
                         <outlet property="StrokeDisplay" destination="b7l-3M-QB8" id="qXz-qs-2sy"/>
+                        <outlet property="StrokeStepperOutlet" destination="62V-5Z-wJL" id="CKt-9P-WEZ"/>
                     </connections>
                 </viewController>
             </objects>
@@ -42,8 +72,13 @@
         <class className="SGSViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SGSViewController.h"/>
             <relationships>
-                <relationship kind="action" name="StrokeStepper:"/>
+                <relationship kind="action" name="HoleScoreRoundScoreAction:"/>
+                <relationship kind="action" name="NextHoleButton:"/>
+                <relationship kind="action" name="StrokeStepperAction:"/>
+                <relationship kind="outlet" name="HoleScoreRoundScoreViews" candidateClass="UISegmentedControl"/>
+                <relationship kind="outlet" name="NextHoleButton" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="StrokeDisplay" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="StrokeStepperOutlet" candidateClass="UIStepper"/>
             </relationships>
         </class>
     </classes>
