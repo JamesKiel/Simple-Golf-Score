@@ -14,7 +14,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="120" id="b7l-3M-QB8">
-                                <rect key="frame" x="85" y="80" width="150" height="200"/>
+                                <rect key="frame" x="85" y="130" width="150" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="120"/>
@@ -22,19 +22,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" id="62V-5Z-wJL">
-                                <rect key="frame" x="113" y="315" width="94" height="27"/>
+                                <rect key="frame" x="113" y="338" width="94" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <action selector="StrokeStepperAction:" destination="2" eventType="valueChanged" id="bNH-9F-PU3"/>
                                 </connections>
                             </stepper>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dv4-tD-YXp">
-                                <rect key="frame" x="100" y="381" width="120" height="50"/>
+                                <rect key="frame" x="100" y="373" width="120" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
                                 <state key="normal" title="Next Hole">
                                     <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.86529416454081631" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -55,10 +55,18 @@
                                     <action selector="HoleScoreRoundScoreAction:" destination="2" eventType="valueChanged" id="W9m-31-vZu"/>
                                 </connections>
                             </segmentedControl>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="28" id="mq7-ZP-Z3p">
+                                <rect key="frame" x="135" y="62" width="50" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.98146949849999998" green="1" blue="0.76109322680000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.90592328128436472" blue="0.65438849259669207" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
+                        <outlet property="HoleNumber" destination="mq7-ZP-Z3p" id="T9N-R8-rc7"/>
                         <outlet property="HoleScoreRoundScoreViews" destination="RI7-MV-txu" id="JfP-9b-hmk"/>
                         <outlet property="NextHoleButton" destination="dv4-tD-YXp" id="riG-QH-hDw"/>
                         <outlet property="StrokeDisplay" destination="b7l-3M-QB8" id="qXz-qs-2sy"/>
@@ -75,6 +83,7 @@
                 <relationship kind="action" name="HoleScoreRoundScoreAction:"/>
                 <relationship kind="action" name="NextHoleButton:"/>
                 <relationship kind="action" name="StrokeStepperAction:"/>
+                <relationship kind="outlet" name="HoleNumber" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="HoleScoreRoundScoreViews" candidateClass="UISegmentedControl"/>
                 <relationship kind="outlet" name="NextHoleButton" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="StrokeDisplay" candidateClass="UILabel"/>

@@ -7,6 +7,7 @@
 //
 
 #import "SGSViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation SGSViewController
 @synthesize NextHoleButton;
@@ -15,6 +16,8 @@
 @synthesize StrokeDisplay;
 @synthesize Holescorevalue;
 @synthesize Roundscorevalue;
+@synthesize HoleNumber;
+@synthesize HoleNumbervar;
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -27,6 +30,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    HoleNumbervar = 1;
+    HoleNumber.text = @"1";
+    StrokeDisplay.layer.cornerRadius = 5.0;
+    StrokeDisplay.layer.masksToBounds = YES;
+    
+
 }
 
 - (void)viewDidUnload
@@ -35,6 +44,8 @@
     [self setNextHoleButton:nil];
     [self setStrokeStepperOutlet:nil];
     [self setHoleScoreRoundScoreViews:nil];
+    [self setHoleNumber:nil];
+    [self setHoleNumber:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -76,30 +87,39 @@
     Roundscorevalue+= Holescorevalue;
     StrokeDisplay.text = @"";
     StrokeStepperOutlet.value = 0;
+    HoleNumbervar++;
+    HoleNumber.text = [NSString stringWithFormat:@"%d",HoleNumbervar];
+    if (HoleNumbervar <= 18) {
+        [NextHoleButton setTitle: @"Next Hole" forState:UIControlStateNormal];
+    }
+    if (HoleNumbervar == 18) {
+        [NextHoleButton setTitle: @"New Game" forState:UIControlStateNormal];
+        StrokeStepperOutlet = 0;
+        Roundscorevalue = 0;
+        Holescorevalue = 0;
+        StrokeDisplay.text = @"";
+        HoleNumbervar = 0;
+        
+    
        //TODO seperate Roundscorevalue from inside this method, see if I can put it in View interface
+}
 }
 - (IBAction)HoleScoreRoundScoreAction:(id)sender {
     if (HoleScoreRoundScoreViews.selectedSegmentIndex == 0) {
         StrokeStepperOutlet.enabled = true;
+        StrokeStepperOutlet.hidden = false;
         NextHoleButton.enabled = true;
+        NextHoleButton.hidden = false;
         StrokeDisplay.text = [NSString stringWithFormat:@"%d",Holescorevalue];
     }
     if (HoleScoreRoundScoreViews.selectedSegmentIndex == 1) {
         StrokeStepperOutlet.enabled = false;
+        StrokeStepperOutlet.hidden = true;
         NextHoleButton.enabled = false;
+        NextHoleButton.hidden = true;
         StrokeDisplay.text =[NSString stringWithFormat:@"%d", Roundscorevalue];
 
     }
 }
 
-//    HoleScoreRoundScoreViews.enabled = TRUE;
-//    if (HoleScoreRoundScoreViews.selectedSegmentIndex == 0,sender) {
-//    
-//        
-//    }  else {
-//    if (HoleScoreRoundScoreViews.selectedSegmentIndex == 1,sender) {
-//        StrokeStepperOutlet.enabled = false;
-//        NextHoleButton.enabled = false;
-//        StrokeDisplay.text = [NSString stringWithFormat:@"%d", Roundscorevalue;
-//    }
 @end

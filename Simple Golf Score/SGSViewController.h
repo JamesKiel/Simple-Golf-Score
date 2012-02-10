@@ -15,6 +15,8 @@
 @property (strong, nonatomic) IBOutlet UILabel *StrokeDisplay;
 @property (nonatomic)int Holescorevalue;
 @property (nonatomic) int Roundscorevalue;
+@property (strong, nonatomic) IBOutlet UILabel *HoleNumber;
+@property (nonatomic) int HoleNumbervar;
 - (IBAction)StrokeStepperAction:(id)sender;
 - (IBAction)NextHoleButton:(id)sender;
 - (IBAction)HoleScoreRoundScoreAction:(id)sender;
