@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		279173DC14E956D800FAAD51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 279BEBD714D2E63400779E40 /* main.m */; };
+		279173DD14E956D800FAAD51 /* SGSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 279BEBDB14D2E63400779E40 /* SGSAppDelegate.m */; };
+		279173DE14E956D800FAAD51 /* SGSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279BEBE114D2E63400779E40 /* SGSViewController.m */; };
+		279173E014E956D800FAAD51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279BEBCB14D2E63400779E40 /* UIKit.framework */; };
+		279173E114E956D800FAAD51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279BEBCD14D2E63400779E40 /* Foundation.framework */; };
+		279173E214E956D800FAAD51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279BEBCF14D2E63400779E40 /* CoreGraphics.framework */; };
+		279173E414E956D800FAAD51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 279BEBD414D2E63400779E40 /* InfoPlist.strings */; };
+		279173E514E956D800FAAD51 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279BEBDD14D2E63400779E40 /* MainStoryboard.storyboard */; };
+		279173E614E956D800FAAD51 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 279BEC0014D2EF5200779E40 /* .gitignore */; };
+		279173EE14E9574F00FAAD51 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279173ED14E9574F00FAAD51 /* CFNetwork.framework */; };
+		279173F914E9579C00FAAD51 /* my_first.feature in Resources */ = {isa = PBXBuildFile; fileRef = 279173F114E9579C00FAAD51 /* my_first.feature */; };
+		279173FA14E9579C00FAAD51 /* launch_steps.rb in Resources */ = {isa = PBXBuildFile; fileRef = 279173F314E9579C00FAAD51 /* launch_steps.rb */; };
+		279173FB14E9579C00FAAD51 /* env.rb in Resources */ = {isa = PBXBuildFile; fileRef = 279173F514E9579C00FAAD51 /* env.rb */; };
+		279173FC14E9579C00FAAD51 /* frank_static_resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 279173F614E9579C00FAAD51 /* frank_static_resources.bundle */; };
+		279173FD14E9579C00FAAD51 /* libFrank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 279173F714E9579C00FAAD51 /* libFrank.a */; };
+		279173FE14E9579C00FAAD51 /* libShelley.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 279173F814E9579C00FAAD51 /* libShelley.a */; };
 		279BEBCC14D2E63400779E40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279BEBCB14D2E63400779E40 /* UIKit.framework */; };
 		279BEBCE14D2E63400779E40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279BEBCD14D2E63400779E40 /* Foundation.framework */; };
 		279BEBD014D2E63400779E40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279BEBCF14D2E63400779E40 /* CoreGraphics.framework */; };
@@ -21,6 +37,7 @@
 		279BEBF414D2E63400779E40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 279BEBF214D2E63400779E40 /* InfoPlist.strings */; };
 		279BEBF714D2E63400779E40 /* Simple_Golf_ScoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 279BEBF614D2E63400779E40 /* Simple_Golf_ScoreTests.m */; };
 		279BEC0114D2EF5200779E40 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 279BEC0014D2EF5200779E40 /* .gitignore */; };
+		27D9888514ED44FB003D5643 /* simple_golf_score_steps.rb in Resources */ = {isa = PBXBuildFile; fileRef = 27D9888414ED44FB003D5643 /* simple_golf_score_steps.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		279173EA14E956D800FAAD51 /* Simple Golf Score copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Golf Score copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		279173EC14E956D900FAAD51 /* Simple Golf Score copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Simple Golf Score copy2-Info.plist"; path = "/Users/jameskiel/Desktop/Dropbox/Simple Golf Score/Simple Golf Score copy2-Info.plist"; sourceTree = "<absolute>"; };
+		279173ED14E9574F00FAAD51 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		279173F114E9579C00FAAD51 /* my_first.feature */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my_first.feature; sourceTree = "<group>"; };
+		279173F314E9579C00FAAD51 /* launch_steps.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = launch_steps.rb; sourceTree = "<group>"; };
+		279173F514E9579C00FAAD51 /* env.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = env.rb; sourceTree = "<group>"; };
+		279173F614E9579C00FAAD51 /* frank_static_resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = frank_static_resources.bundle; sourceTree = "<group>"; };
+		279173F714E9579C00FAAD51 /* libFrank.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFrank.a; sourceTree = "<group>"; };
+		279173F814E9579C00FAAD51 /* libShelley.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libShelley.a; sourceTree = "<group>"; };
 		279BEBC714D2E63400779E40 /* Simple Golf Score.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Golf Score.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		279BEBCB14D2E63400779E40 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		279BEBCD14D2E63400779E40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,9 +80,33 @@
 		279BEBF514D2E63400779E40 /* Simple_Golf_ScoreTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_Golf_ScoreTests.h; sourceTree = "<group>"; };
 		279BEBF614D2E63400779E40 /* Simple_Golf_ScoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_Golf_ScoreTests.m; sourceTree = "<group>"; };
 		279BEC0014D2EF5200779E40 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		27D9888414ED44FB003D5643 /* simple_golf_score_steps.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = simple_golf_score_steps.rb; sourceTree = "<group>"; };
+		27E9D91014E562B4003EC4C8 /* Simple Golf Score copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Simple Golf Score copy-Info.plist"; path = "/Users/jameskiel/Desktop/Dropbox/Simple Golf Score/Simple Golf Score copy-Info.plist"; sourceTree = "<absolute>"; };
+		27E9D91314E563AD003EC4C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27E9D91514E563AD003EC4C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		27E9D92014E563AD003EC4C8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27E9D92114E563AD003EC4C8 /* SGSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSAppDelegate.h; sourceTree = "<group>"; };
+		27E9D92214E563AD003EC4C8 /* SGSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSAppDelegate.m; sourceTree = "<group>"; };
+		27E9D92314E563AD003EC4C8 /* SGSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSViewController.h; sourceTree = "<group>"; };
+		27E9D92414E563AD003EC4C8 /* SGSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSViewController.m; sourceTree = "<group>"; };
+		27E9D92514E563AD003EC4C8 /* Simple Golf Score-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Simple Golf Score-Info.plist"; sourceTree = "<group>"; };
+		27E9D92614E563AD003EC4C8 /* Simple Golf Score-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Simple Golf Score-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		279173DF14E956D800FAAD51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279173EE14E9574F00FAAD51 /* CFNetwork.framework in Frameworks */,
+				279173E014E956D800FAAD51 /* UIKit.framework in Frameworks */,
+				279173E114E956D800FAAD51 /* Foundation.framework in Frameworks */,
+				279173E214E956D800FAAD51 /* CoreGraphics.framework in Frameworks */,
+				279173FD14E9579C00FAAD51 /* libFrank.a in Frameworks */,
+				279173FE14E9579C00FAAD51 /* libShelley.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		279BEBC414D2E63400779E40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,13 +130,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		279173EF14E9579C00FAAD51 /* Frank */ = {
+			isa = PBXGroup;
+			children = (
+				279173F014E9579C00FAAD51 /* features */,
+				279173F614E9579C00FAAD51 /* frank_static_resources.bundle */,
+				279173F714E9579C00FAAD51 /* libFrank.a */,
+				279173F814E9579C00FAAD51 /* libShelley.a */,
+			);
+			path = Frank;
+			sourceTree = "<group>";
+		};
+		279173F014E9579C00FAAD51 /* features */ = {
+			isa = PBXGroup;
+			children = (
+				279173F114E9579C00FAAD51 /* my_first.feature */,
+				279173F214E9579C00FAAD51 /* step_definitions */,
+				279173F414E9579C00FAAD51 /* support */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		279173F214E9579C00FAAD51 /* step_definitions */ = {
+			isa = PBXGroup;
+			children = (
+				279173F314E9579C00FAAD51 /* launch_steps.rb */,
+				27D9888414ED44FB003D5643 /* simple_golf_score_steps.rb */,
+			);
+			path = step_definitions;
+			sourceTree = "<group>";
+		};
+		279173F414E9579C00FAAD51 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				279173F514E9579C00FAAD51 /* env.rb */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
 		279BEBBC14D2E63300779E40 = {
 			isa = PBXGroup;
 			children = (
+				279173ED14E9574F00FAAD51 /* CFNetwork.framework */,
+				27E9D91114E563AD003EC4C8 /* Simple Golf Score */,
 				279BEBD114D2E63400779E40 /* Simple Golf Score */,
 				279BEBEF14D2E63400779E40 /* Simple Golf ScoreTests */,
 				279BEBCA14D2E63400779E40 /* Frameworks */,
 				279BEBC814D2E63400779E40 /* Products */,
+				27E9D91014E562B4003EC4C8 /* Simple Golf Score copy-Info.plist */,
+				279173EC14E956D900FAAD51 /* Simple Golf Score copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +187,7 @@
 			children = (
 				279BEBC714D2E63400779E40 /* Simple Golf Score.app */,
 				279BEBE814D2E63400779E40 /* Simple Golf ScoreTests.octest */,
+				279173EA14E956D800FAAD51 /* Simple Golf Score copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,9 +247,43 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		27E9D91114E563AD003EC4C8 /* Simple Golf Score */ = {
+			isa = PBXGroup;
+			children = (
+				279173EF14E9579C00FAAD51 /* Frank */,
+				27E9D91214E563AD003EC4C8 /* InfoPlist.strings */,
+				27E9D91414E563AD003EC4C8 /* MainStoryboard.storyboard */,
+				27E9D92014E563AD003EC4C8 /* main.m */,
+				27E9D92114E563AD003EC4C8 /* SGSAppDelegate.h */,
+				27E9D92214E563AD003EC4C8 /* SGSAppDelegate.m */,
+				27E9D92314E563AD003EC4C8 /* SGSViewController.h */,
+				27E9D92414E563AD003EC4C8 /* SGSViewController.m */,
+				27E9D92514E563AD003EC4C8 /* Simple Golf Score-Info.plist */,
+				27E9D92614E563AD003EC4C8 /* Simple Golf Score-Prefix.pch */,
+			);
+			path = "Simple Golf Score";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		279173DA14E956D800FAAD51 /* Simple Golf Score Frankified */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279173E714E956D800FAAD51 /* Build configuration list for PBXNativeTarget "Simple Golf Score Frankified" */;
+			buildPhases = (
+				279173DB14E956D800FAAD51 /* Sources */,
+				279173DF14E956D800FAAD51 /* Frameworks */,
+				279173E314E956D800FAAD51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Golf Score Frankified";
+			productName = "Simple Golf Score";
+			productReference = 279173EA14E956D800FAAD51 /* Simple Golf Score copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 		279BEBC614D2E63400779E40 /* Simple Golf Score */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 279BEBFA14D2E63400779E40 /* Build configuration list for PBXNativeTarget "Simple Golf Score" */;
@@ -215,11 +342,26 @@
 			targets = (
 				279BEBC614D2E63400779E40 /* Simple Golf Score */,
 				279BEBE714D2E63400779E40 /* Simple Golf ScoreTests */,
+				279173DA14E956D800FAAD51 /* Simple Golf Score Frankified */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		279173E314E956D800FAAD51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279173E414E956D800FAAD51 /* InfoPlist.strings in Resources */,
+				279173E514E956D800FAAD51 /* MainStoryboard.storyboard in Resources */,
+				279173E614E956D800FAAD51 /* .gitignore in Resources */,
+				279173F914E9579C00FAAD51 /* my_first.feature in Resources */,
+				279173FA14E9579C00FAAD51 /* launch_steps.rb in Resources */,
+				279173FB14E9579C00FAAD51 /* env.rb in Resources */,
+				279173FC14E9579C00FAAD51 /* frank_static_resources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		279BEBC514D2E63400779E40 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -227,6 +369,7 @@
 				279BEBD614D2E63400779E40 /* InfoPlist.strings in Resources */,
 				279BEBDF14D2E63400779E40 /* MainStoryboard.storyboard in Resources */,
 				279BEC0114D2EF5200779E40 /* .gitignore in Resources */,
+				27D9888514ED44FB003D5643 /* simple_golf_score_steps.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +400,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		279173DB14E956D800FAAD51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279173DC14E956D800FAAD51 /* main.m in Sources */,
+				279173DD14E956D800FAAD51 /* SGSAppDelegate.m in Sources */,
+				279173DE14E956D800FAAD51 /* SGSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		279BEBC314D2E63400779E40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -310,9 +463,63 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		27E9D91214E563AD003EC4C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27E9D91314E563AD003EC4C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27E9D91414E563AD003EC4C8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27E9D91514E563AD003EC4C8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		279173E814E956D800FAAD51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Golf Score/Simple Golf Score-Prefix.pch";
+				INFOPLIST_FILE = "Simple Golf Score copy2-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Simple Golf Score/Frank\"",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "Simple Golf Score copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		279173E914E956D800FAAD51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Golf Score/Simple Golf Score-Prefix.pch";
+				INFOPLIST_FILE = "Simple Golf Score copy2-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Simple Golf Score/Frank\"",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "Simple Golf Score copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		279BEBF814D2E63400779E40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -417,6 +624,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		279173E714E956D800FAAD51 /* Build configuration list for PBXNativeTarget "Simple Golf Score Frankified" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279173E814E956D800FAAD51 /* Debug */,
+				279173E914E956D800FAAD51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		279BEBC114D2E63300779E40 /* Build configuration list for PBXProject "Simple Golf Score" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -32,7 +32,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     HoleNumbervar = 1;
     HoleNumber.text = @"1";
-    StrokeDisplay.layer.cornerRadius = 5.0;
+    StrokeDisplay.layer.cornerRadius = 10.0;
     StrokeDisplay.layer.masksToBounds = YES;
     
 
@@ -108,9 +108,17 @@
     if (HoleScoreRoundScoreViews.selectedSegmentIndex == 0) {
         StrokeStepperOutlet.enabled = true;
         StrokeStepperOutlet.hidden = false;
+        StrokeDisplay.text = @"";
+        Holescorevalue = 0;
+        StrokeStepperOutlet.value = 0;
         NextHoleButton.enabled = true;
         NextHoleButton.hidden = false;
-        StrokeDisplay.text = [NSString stringWithFormat:@"%d",Holescorevalue];
+        if (Holescorevalue == 0) {
+            StrokeDisplay.text = @"";
+        }
+        else {
+            StrokeDisplay.text = [NSString stringWithFormat:@"%d",Holescorevalue];
+        }
     }
     if (HoleScoreRoundScoreViews.selectedSegmentIndex == 1) {
         StrokeStepperOutlet.enabled = false;
