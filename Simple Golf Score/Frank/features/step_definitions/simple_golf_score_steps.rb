@@ -21,3 +21,6 @@ end
 When /^I touch the Hole Score button/ do
     touch("view:'UISegment' marked:'Hole Score'")
 end
+
+When /^I rotate the Simulator/ do
+    rotate("view

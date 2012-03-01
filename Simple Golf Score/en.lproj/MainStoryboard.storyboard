@@ -78,21 +78,6 @@
             </objects>
         </scene>
     </scenes>
-    <classes>
-        <class className="SGSViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SGSViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="HoleScoreRoundScoreAction:"/>
-                <relationship kind="action" name="NextHoleButton:"/>
-                <relationship kind="action" name="StrokeStepperAction:"/>
-                <relationship kind="outlet" name="HoleNumber" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="HoleScoreRoundScoreViews" candidateClass="UISegmentedControl"/>
-                <relationship kind="outlet" name="NextHoleButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="StrokeDisplay" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="StrokeStepperOutlet" candidateClass="UIStepper"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

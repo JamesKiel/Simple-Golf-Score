@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2746353714FD1A4500AACD73 /* Orientations.feature in Resources */ = {isa = PBXBuildFile; fileRef = 2746353614FD1A4500AACD73 /* Orientations.feature */; };
 		279173DC14E956D800FAAD51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 279BEBD714D2E63400779E40 /* main.m */; };
 		279173DD14E956D800FAAD51 /* SGSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 279BEBDB14D2E63400779E40 /* SGSAppDelegate.m */; };
 		279173DE14E956D800FAAD51 /* SGSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279BEBE114D2E63400779E40 /* SGSViewController.m */; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2746353614FD1A4500AACD73 /* Orientations.feature */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Orientations.feature; sourceTree = "<group>"; };
 		279173EA14E956D800FAAD51 /* Simple Golf Score copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Golf Score copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		279173EC14E956D900FAAD51 /* Simple Golf Score copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Simple Golf Score copy2-Info.plist"; path = "/Users/jameskiel/Desktop/Dropbox/Simple Golf Score/Simple Golf Score copy2-Info.plist"; sourceTree = "<absolute>"; };
 		279173ED14E9574F00FAAD51 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -144,6 +146,7 @@
 		279173F014E9579C00FAAD51 /* features */ = {
 			isa = PBXGroup;
 			children = (
+				2746353614FD1A4500AACD73 /* Orientations.feature */,
 				279173F114E9579C00FAAD51 /* my_first.feature */,
 				279173F214E9579C00FAAD51 /* step_definitions */,
 				279173F414E9579C00FAAD51 /* support */,
@@ -370,6 +373,7 @@
 				279BEBDF14D2E63400779E40 /* MainStoryboard.storyboard in Resources */,
 				279BEC0114D2EF5200779E40 /* .gitignore in Resources */,
 				27D9888514ED44FB003D5643 /* simple_golf_score_steps.rb in Resources */,
+				2746353714FD1A4500AACD73 /* Orientations.feature in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

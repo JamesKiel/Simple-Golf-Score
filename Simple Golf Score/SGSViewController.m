@@ -35,6 +35,7 @@
     StrokeDisplay.layer.cornerRadius = 10.0;
     StrokeDisplay.layer.masksToBounds = YES;
     
+    
 
 }
 
@@ -73,8 +74,9 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    // Return YES for supported orientations
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    // Removed UIInterfaceOrientationPortraitupsidedown
+    return (interfaceOrientation == (UIInterfaceOrientationPortrait) ||
+            interfaceOrientation == (UIInterfaceOrientationPortraitUpsideDown));
 }
 
 - (IBAction)StrokeStepperAction:(UIStepper*)sender {
